@@ -10,16 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var inputName: UITextField!
+    @IBOutlet weak var labelHello: UILabel!
+    
+    @IBAction func submit(sender: AnyObject) {
+        print("Clcik Go Button!")
+        labelHello.text = inputName.text
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        print("START!")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
 }
-

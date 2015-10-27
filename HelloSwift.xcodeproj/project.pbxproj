@@ -12,6 +12,7 @@
 		A38F6A641BDF786A0007D1F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38F6A621BDF786A0007D1F3 /* Main.storyboard */; };
 		A38F6A661BDF786A0007D1F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38F6A651BDF786A0007D1F3 /* Assets.xcassets */; };
 		A38F6A691BDF786A0007D1F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38F6A671BDF786A0007D1F3 /* LaunchScreen.storyboard */; };
+		A38F6A721BDF791D0007D1F3 /* Saasy.png in Resources */ = {isa = PBXBuildFile; fileRef = A38F6A711BDF791D0007D1F3 /* Saasy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A38F6A651BDF786A0007D1F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A38F6A681BDF786A0007D1F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A38F6A6A1BDF786A0007D1F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A38F6A711BDF791D0007D1F3 /* Saasy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Saasy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		A38F6A5D1BDF78690007D1F3 /* HelloSwift */ = {
 			isa = PBXGroup;
 			children = (
+				A38F6A701BDF790D0007D1F3 /* Images */,
 				A38F6A5E1BDF78690007D1F3 /* AppDelegate.swift */,
 				A38F6A601BDF78690007D1F3 /* ViewController.swift */,
 				A38F6A621BDF786A0007D1F3 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				A38F6A6A1BDF786A0007D1F3 /* Info.plist */,
 			);
 			path = HelloSwift;
+			sourceTree = "<group>";
+		};
+		A38F6A701BDF790D0007D1F3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A38F6A711BDF791D0007D1F3 /* Saasy.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A38F6A691BDF786A0007D1F3 /* LaunchScreen.storyboard in Resources */,
+				A38F6A721BDF791D0007D1F3 /* Saasy.png in Resources */,
 				A38F6A661BDF786A0007D1F3 /* Assets.xcassets in Resources */,
 				A38F6A641BDF786A0007D1F3 /* Main.storyboard in Resources */,
 			);
